@@ -1,0 +1,223 @@
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/Practise/ProjectAssi/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+}
+#main-container
+{
+    display: flex;
+}
+#left-container
+{
+    width: 25%;
+    margin-top: 5%;
+}
+.card
+{
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+}
+.card h1
+{
+    text-align: center;
+    color: black;
+}
+input
+{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button
+{
+    padding: 10px 15px;
+    background-color:#007bff;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #0056b3;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+ li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    color: #eee;
+    font-size: 24px;
+}
+span{
+    background-color:#ff58bc;
+    color: white;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.search-container
+{
+    width: 60%;
+}
+.search-bar
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#search-input
+{
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 18px;
+
+ }
+ .search-button
+ {
+    width: 100px;
+    height:100px;
+    position: absolute;
+    right: 300px;
+    top: 40px; 
+ }
+ .search-button button
+ {
+    border: 0;
+    border-radius: 50%;
+    background-color: #8c52ff;
+    cursor: pointer;
+   
+ }
+ /*
+#button-img 
+{
+    width: 0;
+    height: 0;
+    background: none;
+}
+#button-img img
+{
+    position: relative;
+    width: 45px;
+    height:45px ;
+    left: 290px;
+    top: -69px;
+    border-radius: 100%;
+    cursor: pointer;
+} */
+
+
+#icon-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 5% auto;
+}
+.icon
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0,0,0.2px);
+    cursor: pointer;
+    transition: margin-top 0.4s;
+    position: relative;
+}
+.icon:hover
+{
+    margin-top: -10px;
+}
+.icon img
+{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+.delete-icon
+{
+    position: absolute;
+    right: -16px;
+    background-color:#ff5858;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.icon:hover .delete-icon
+{
+    visibility: visible;
+}
+.right-container
+{
+    width: 20%;
+    margin-top: 5%;
+}
+#countdown
+{
+ text-align: center;
+ font-size: 24px;
+ margin-top: 20px;
+color: black;
+
+}
+#time
+{
+    font-size: 24px;
+    margin: 10px 0;
+    color: #eee;
+    text-align: center;
+}
+#date
+{
+    font-size: 20px;
+    text-align: center;
+    color: #f5fffa;
+    background-image: linear-gradient(30deg,red,blue);
+}
+.clock ul
+{
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    gap: 15px;
+    color: #eee;
+    text-align: center;
+}
+.clock ul li
+{
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    gap: 15px;
+    color: #eee;
+    text-align: center;
+    border-bottom: none;
+}

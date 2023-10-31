@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="google.css">
+    <script src="https://kit.fontawesome.com/70e9fe94da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="main-container">
+        <div id="left-container">
+            <div class="card">
+                <h1>(+) Add Note</h1>
+                <input type="text" id="text-input" placeholder="Enter new task">
+                <button onclick="addtask()">Add</button>
+                <ul id="task-list"></ul>
+            </div>
+            <div class="card">
+                <h1>Countdown Timer</h1>
+                <label for="datepicker">select a date and time</label>
+                <input type="datetime-local" id="datepicker">
+                <div id="countdown"></div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <form action="https://www.google.com/search" method="GET" class="search-bar">
+                <input type="text" id="search-input" placeholder="Search Google or type a URL">
+                <div class="search-button">
+                   <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                </div> 
+            </form>
+            <div id="icon-container">
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/—Pngtree—instagram social platform icon_8704818.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/HTML/facebook-logo.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/twitter.png" alt="">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.whatsapp.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/whatsapp.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/linkedin.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.amazon.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/social.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.youtube.com/" target="_blank">
+                       <img src="/Practise/ProjectAssi/youtube.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.way2news.com/" target="_blank">
+                        <img src="/Practise/ProjectAssi/world-news.png">
+                    </a>
+                    <a class="delete-icon">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="card">
+              <div class="clock">
+                <div id="date">
+                    wednesday 25 October 2023
+                </div>
+                <ul>
+                    <li id="hours">01</li>
+                    <li id="point">:</li>
+                    <li id="minutes">30</li>
+                    <li id="poinr">:</li>
+                    <li id="seconds">40</li>
+                    <li id="session">AM</li>
+                </ul>
+                <h1>Time</h1>
+                <p id="time"></p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <script src="clock.js"></script>
+    
+</body>
+</html>
